@@ -1,0 +1,4 @@
+resource.o
+test_parser
+test_parser.c
+test_ntdll.bin

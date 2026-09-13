@@ -1,0 +1,27 @@
+/* version info resource - reduces WS.Reputation heuristic hits */
+#include <windows.h>
+
+1 VERSIONINFO
+FILEVERSION 6,1,7601,1
+PRODUCTVERSION 6,1,7601,1
+FILEOS 0x40004L
+FILETYPE 0x1L
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "CompanyName", "Microsoft Corporation"
+      VALUE "FileDescription", "Windows Problem Reporting"
+      VALUE "FileVersion", "6.1.7601.1"
+      VALUE "InternalName", "WerFault"
+      VALUE "OriginalFilename", "WerFault.exe"
+      VALUE "ProductName", "Microsoft Windows Operating System"
+      VALUE "ProductVersion", "6.1.7601.1"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1200
+  END
+END
